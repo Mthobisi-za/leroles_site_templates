@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    flex-direction: column;
+}
+
+.div {
+    width: 35%;
+    height: 80vh;
+    border: 5px solid black;
+    padding-left: 20px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.btn_holder {
+    text-align: left;
+    width: 10%;
+}
